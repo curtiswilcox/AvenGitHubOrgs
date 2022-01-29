@@ -1,12 +1,13 @@
 //
 //  OrganizationObserver.swift
-//  AvenGitHubOrgs
+//  Shared
 //
 //  Created by Curtis Wilcox on 1/27/22.
 //
 
 import Foundation
 
+/// `Observer` class to pull data from GitHub's REST API
 class OrganizationObserver: ObservableObject {
     @Published var organizations: [Organization]
     

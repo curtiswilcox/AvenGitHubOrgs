@@ -1,6 +1,6 @@
 //
 //  Organization.swift
-//  AvenGitHubOrgs
+//  Shared
 //
 //  Created by Curtis Wilcox on 1/27/22.
 //
@@ -38,6 +38,9 @@ struct Organization: Decodable, Hashable, Identifiable {
         }()
     }
     
+    /// Overload `==` operator.
+    ///
+    /// Compare two `Organization`s based on their IDs.
     static func ==(lhs: Organization, rhs: Organization) -> Bool {
         lhs.id == rhs.id
     }
@@ -51,7 +54,6 @@ extension Organization {
     enum CodingKeys: String, CodingKey {
         case name = "login"
         case description = "description"
-//        case githubURL = "url"
         case avatarURL = "avatar_url"
     }
 }
