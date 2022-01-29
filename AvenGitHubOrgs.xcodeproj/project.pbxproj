@@ -13,6 +13,10 @@
 		D44E125127A32D6D00A34CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E123F27A32D6B00A34CF4 /* ContentView.swift */; };
 		D44E125227A32D6D00A34CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44E124027A32D6D00A34CF4 /* Assets.xcassets */; };
 		D44E125327A32D6D00A34CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44E124027A32D6D00A34CF4 /* Assets.xcassets */; };
+		D44E125D27A32F0200A34CF4 /* OrganizationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E125C27A32F0100A34CF4 /* OrganizationObserver.swift */; };
+		D44E125E27A32F0200A34CF4 /* OrganizationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E125C27A32F0100A34CF4 /* OrganizationObserver.swift */; };
+		D44E126027A3300900A34CF4 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E125F27A3300900A34CF4 /* Organization.swift */; };
+		D44E126127A3300900A34CF4 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E125F27A3300900A34CF4 /* Organization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		D44E124527A32D6D00A34CF4 /* AvenGitHubOrgs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvenGitHubOrgs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44E124B27A32D6D00A34CF4 /* AvenGitHubOrgs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvenGitHubOrgs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44E124D27A32D6D00A34CF4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D44E125C27A32F0100A34CF4 /* OrganizationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationObserver.swift; sourceTree = "<group>"; };
+		D44E125F27A3300900A34CF4 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			children = (
 				D44E123E27A32D6B00A34CF4 /* AvenGitHubOrgsApp.swift */,
 				D44E123F27A32D6B00A34CF4 /* ContentView.swift */,
+				D44E125C27A32F0100A34CF4 /* OrganizationObserver.swift */,
+				D44E125F27A3300900A34CF4 /* Organization.swift */,
 				D44E124027A32D6D00A34CF4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44E125D27A32F0200A34CF4 /* OrganizationObserver.swift in Sources */,
 				D44E125027A32D6D00A34CF4 /* ContentView.swift in Sources */,
+				D44E126027A3300900A34CF4 /* Organization.swift in Sources */,
 				D44E124E27A32D6D00A34CF4 /* AvenGitHubOrgsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +195,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44E125E27A32F0200A34CF4 /* OrganizationObserver.swift in Sources */,
 				D44E125127A32D6D00A34CF4 /* ContentView.swift in Sources */,
+				D44E126127A3300900A34CF4 /* Organization.swift in Sources */,
 				D44E124F27A32D6D00A34CF4 /* AvenGitHubOrgsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
